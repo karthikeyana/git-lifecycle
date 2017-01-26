@@ -55,3 +55,53 @@ git clone https://github.com/karthikeyana/git-lifecycle.git
 4) PERFORM CHANGES
 git status -s
 git add README 
+git log
+
+5) REVIEW CHANGES
+git log
+git show
+git diff
+
+6) COMMIT CHANGES
+git log
+git status -s 
+git add README
+git status -s 
+git log
+
+7) PUSH OPERATION
+git log
+git show
+git push origin master 
+
+8) UPDATE OPERATION
+git clone https://github.com/karthikeyana/git-lifecycle.git
+cd git-lifecycle
+git log
+git diff
+git status -s 
+git add README
+git commit -m 'Update operation descriptioins'
+git log
+git push oring master
+
+Add new feature:
+git diff
+git status -s
+git add README
+git log
+git push origin master
+
+Fetch latest changes:
+git pull
+git log
+git push origin master 
+
+
+9) STASH OPERATION
+git status -s
+git stash
+git status -s 
+git stash list
+git status -s
+git stash pop
