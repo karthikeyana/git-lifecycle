@@ -112,8 +112,4 @@ git commit -m 'New file added git-lifecycle.sh, created folder src, README modif
 git status -s
 git push origin master
 
-11) RENAME OPERATION
-git add gitLifeCycle.sh
-git mv git-lifecycle.sh gitLifeCycle.sh
-git status -s 
-git commit -a -m 'New file added gitLifeCycle.sh and renamed git-lifecycle.sh to gitLifeCycle.sh'
+
