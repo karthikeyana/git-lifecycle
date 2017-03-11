@@ -112,4 +112,11 @@ git commit -m 'New file added git-lifecycle.sh, created folder src, README modif
 git status -s
 git push origin master
 
+11) DELETE OPERATION
+git status -s
+git rm git-lifecycle 
+git commit -a -m 'git-lifecycle file removed'
+git push origin master
+
+
 
