@@ -126,8 +126,24 @@ git status -s
 rm gitLifeCycle
 git checkout gitLifeCycle.sh
 git status -s
+
 Remove Changes from Staging Area:
 git status -s
 git add gitLifeCycle.sh
 git checkout HEAD -- gitLifeCycle.sh
+git status -s
+
+Move HEAD Pointer with Git Reset:
+soft:
+cat .git/refs/heads/master
+git log -1 
+git reset --soft HEAD~
+cat .git/refs/heads/master
+git log -1
+mixed: 
+git reset --mixed HEAD~
+hard:
+git reset --hard HEAD~
+git status -s
+git reset --hard acee1e6c32c86d308ac0f6b7f3ce7c54af46eb26
 git status -s
