@@ -147,3 +147,17 @@ git reset --hard HEAD~
 git status -s
 git reset --hard acee1e6c32c86d308ac0f6b7f3ce7c54af46eb26
 git status -s
+
+13) TAG OPERATION
+create tag:
+git tag -a 'version-1.0' -m 'Tagged basic description of git' HEAD
+git push origin tag version-1.0
+
+view tag:
+git tag -l
+git show version-1.0
+
+delete tag:
+git tag -d version-1.0
+git push origin :version-1.0
+
