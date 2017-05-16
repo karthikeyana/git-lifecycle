@@ -169,3 +169,20 @@ git apply 0001-Tagging-features-added.patch
 apply patch with commit:
 git am 0001-Tagging-features-added.patch
 
+15) MANAGING BRANCHES
+create branch:
+git branch branch
+list branch:
+git branch
+change branch:
+git checkout branch
+
+create and checkout:
+git checkout -b new_branch
+
+delete branch:
+git branch -D new_branch
+
+rename a branch:
+git branch -m branch new_branch
+
