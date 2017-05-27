@@ -186,3 +186,13 @@ git branch -D new_branch
 rename a branch:
 git branch -m branch new_branch
 
+merge two branches:
+git diff
+git status -s
+git add src/gitLifeCycle.sh
+git commit -m 'git branch operation descriptions added'
+git push origin new_branch
+git log origin/new_branch -2
+git checkout master
+git merge origin/new_branch
+git log -1
