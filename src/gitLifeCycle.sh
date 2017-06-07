@@ -196,3 +196,11 @@ git log origin/new_branch -2
 git checkout master
 git merge origin/new_branch
 git log -1
+git status -s 
+git add src/gitLifeCycle.sh
+git commit -m 'new_branch features added to master branch'
+git push oring master
+git checkout new_branch
+git pull origin master
+git diff
+git status -s
