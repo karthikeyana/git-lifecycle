@@ -118,5 +118,11 @@ git rm git-lifecycle
 git commit -a -m 'git-lifecycle file removed'
 git push origin master
 
-
-
+12) FIX MISTAKES
+Revert Uncommitted Changes:
+git status -s
+git checkout gitLifeCycle
+git status -s
+rm gitLifeCycle
+git checkout gitLifeCycle.sh
+git status -s
