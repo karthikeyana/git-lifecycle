@@ -126,3 +126,8 @@ git status -s
 rm gitLifeCycle
 git checkout gitLifeCycle.sh
 git status -s
+Remove Changes from Staging Area:
+git status -s
+git add gitLifeCycle.sh
+git checkout HEAD -- gitLifeCycle.sh
+git status -s
