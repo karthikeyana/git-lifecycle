@@ -161,3 +161,11 @@ delete tag:
 git tag -d version-1.0
 git push origin :version-1.0
 
+14) PATCH OPERATION
+create patch:
+git format-patch -1
+apply patch without commit:
+git apply 0001-Tagging-features-added.patch
+apply patch with commit:
+git am 0001-Tagging-features-added.patch
+
